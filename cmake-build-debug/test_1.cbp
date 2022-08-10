@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="test_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_1">
+				<Option output="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/test_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_1/fast">
+				<Option output="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/test_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/LeetCodeTest.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/LeetCodeTest.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/msbs.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/nio.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/nio.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/MeiTuan.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/gramar.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/gramar.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/lc.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/main.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/ms1.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/query_ad.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/query_ad.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/stop_word.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/stop_word.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/target_user_context.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/target_user_context.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/test_include.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/test_include.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/zoom.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
