@@ -86,7 +86,19 @@
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/LeetCodeTest.h">
 			<Option target="test_1"/>
 		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/MeiTuan.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/meituan2.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/ms1.cpp">
+			<Option target="test_1"/>
+		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/msbs.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/msbs2.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/nio.cpp">
@@ -95,7 +107,7 @@
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/nio.h">
 			<Option target="test_1"/>
 		</Unit>
-		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/MeiTuan.cpp">
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/zoom.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/gramar.cpp">
@@ -108,9 +120,6 @@
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/main.cpp">
-			<Option target="test_1"/>
-		</Unit>
-		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/ms1.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/query_ad.cpp">
@@ -135,9 +144,6 @@
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/test_include.h">
-			<Option target="test_1"/>
-		</Unit>
-		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/zoom.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/CMakeLists.txt">

@@ -169,6 +169,87 @@ LeetCode/LeetCodeTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/LeetCodeTest.cpp.s
 .PHONY : LeetCode/LeetCodeTest.cpp.s
 
+LeetCode/MeiTuan.o: LeetCode/MeiTuan.cpp.o
+
+.PHONY : LeetCode/MeiTuan.o
+
+# target to build an object file
+LeetCode/MeiTuan.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/MeiTuan.cpp.o
+.PHONY : LeetCode/MeiTuan.cpp.o
+
+LeetCode/MeiTuan.i: LeetCode/MeiTuan.cpp.i
+
+.PHONY : LeetCode/MeiTuan.i
+
+# target to preprocess a source file
+LeetCode/MeiTuan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/MeiTuan.cpp.i
+.PHONY : LeetCode/MeiTuan.cpp.i
+
+LeetCode/MeiTuan.s: LeetCode/MeiTuan.cpp.s
+
+.PHONY : LeetCode/MeiTuan.s
+
+# target to generate assembly for a file
+LeetCode/MeiTuan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/MeiTuan.cpp.s
+.PHONY : LeetCode/MeiTuan.cpp.s
+
+LeetCode/meituan2.o: LeetCode/meituan2.cpp.o
+
+.PHONY : LeetCode/meituan2.o
+
+# target to build an object file
+LeetCode/meituan2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/meituan2.cpp.o
+.PHONY : LeetCode/meituan2.cpp.o
+
+LeetCode/meituan2.i: LeetCode/meituan2.cpp.i
+
+.PHONY : LeetCode/meituan2.i
+
+# target to preprocess a source file
+LeetCode/meituan2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/meituan2.cpp.i
+.PHONY : LeetCode/meituan2.cpp.i
+
+LeetCode/meituan2.s: LeetCode/meituan2.cpp.s
+
+.PHONY : LeetCode/meituan2.s
+
+# target to generate assembly for a file
+LeetCode/meituan2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/meituan2.cpp.s
+.PHONY : LeetCode/meituan2.cpp.s
+
+LeetCode/ms1.o: LeetCode/ms1.cpp.o
+
+.PHONY : LeetCode/ms1.o
+
+# target to build an object file
+LeetCode/ms1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/ms1.cpp.o
+.PHONY : LeetCode/ms1.cpp.o
+
+LeetCode/ms1.i: LeetCode/ms1.cpp.i
+
+.PHONY : LeetCode/ms1.i
+
+# target to preprocess a source file
+LeetCode/ms1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/ms1.cpp.i
+.PHONY : LeetCode/ms1.cpp.i
+
+LeetCode/ms1.s: LeetCode/ms1.cpp.s
+
+.PHONY : LeetCode/ms1.s
+
+# target to generate assembly for a file
+LeetCode/ms1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/ms1.cpp.s
+.PHONY : LeetCode/ms1.cpp.s
+
 LeetCode/msbs.o: LeetCode/msbs.cpp.o
 
 .PHONY : LeetCode/msbs.o
@@ -195,6 +276,33 @@ LeetCode/msbs.s: LeetCode/msbs.cpp.s
 LeetCode/msbs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/msbs.cpp.s
 .PHONY : LeetCode/msbs.cpp.s
+
+LeetCode/msbs2.o: LeetCode/msbs2.cpp.o
+
+.PHONY : LeetCode/msbs2.o
+
+# target to build an object file
+LeetCode/msbs2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/msbs2.cpp.o
+.PHONY : LeetCode/msbs2.cpp.o
+
+LeetCode/msbs2.i: LeetCode/msbs2.cpp.i
+
+.PHONY : LeetCode/msbs2.i
+
+# target to preprocess a source file
+LeetCode/msbs2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/msbs2.cpp.i
+.PHONY : LeetCode/msbs2.cpp.i
+
+LeetCode/msbs2.s: LeetCode/msbs2.cpp.s
+
+.PHONY : LeetCode/msbs2.s
+
+# target to generate assembly for a file
+LeetCode/msbs2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/msbs2.cpp.s
+.PHONY : LeetCode/msbs2.cpp.s
 
 LeetCode/nio.o: LeetCode/nio.cpp.o
 
@@ -223,32 +331,32 @@ LeetCode/nio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/nio.cpp.s
 .PHONY : LeetCode/nio.cpp.s
 
-MeiTuan.o: MeiTuan.cpp.o
+LeetCode/zoom.o: LeetCode/zoom.cpp.o
 
-.PHONY : MeiTuan.o
+.PHONY : LeetCode/zoom.o
 
 # target to build an object file
-MeiTuan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/MeiTuan.cpp.o
-.PHONY : MeiTuan.cpp.o
+LeetCode/zoom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/zoom.cpp.o
+.PHONY : LeetCode/zoom.cpp.o
 
-MeiTuan.i: MeiTuan.cpp.i
+LeetCode/zoom.i: LeetCode/zoom.cpp.i
 
-.PHONY : MeiTuan.i
+.PHONY : LeetCode/zoom.i
 
 # target to preprocess a source file
-MeiTuan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/MeiTuan.cpp.i
-.PHONY : MeiTuan.cpp.i
+LeetCode/zoom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/zoom.cpp.i
+.PHONY : LeetCode/zoom.cpp.i
 
-MeiTuan.s: MeiTuan.cpp.s
+LeetCode/zoom.s: LeetCode/zoom.cpp.s
 
-.PHONY : MeiTuan.s
+.PHONY : LeetCode/zoom.s
 
 # target to generate assembly for a file
-MeiTuan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/MeiTuan.cpp.s
-.PHONY : MeiTuan.cpp.s
+LeetCode/zoom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/zoom.cpp.s
+.PHONY : LeetCode/zoom.cpp.s
 
 gramar.o: gramar.cpp.o
 
@@ -330,33 +438,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-ms1.o: ms1.cpp.o
-
-.PHONY : ms1.o
-
-# target to build an object file
-ms1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/ms1.cpp.o
-.PHONY : ms1.cpp.o
-
-ms1.i: ms1.cpp.i
-
-.PHONY : ms1.i
-
-# target to preprocess a source file
-ms1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/ms1.cpp.i
-.PHONY : ms1.cpp.i
-
-ms1.s: ms1.cpp.s
-
-.PHONY : ms1.s
-
-# target to generate assembly for a file
-ms1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/ms1.cpp.s
-.PHONY : ms1.cpp.s
 
 query_ad.o: query_ad.cpp.o
 
@@ -466,33 +547,6 @@ test_include.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/test_include.cpp.s
 .PHONY : test_include.cpp.s
 
-zoom.o: zoom.cpp.o
-
-.PHONY : zoom.o
-
-# target to build an object file
-zoom.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/zoom.cpp.o
-.PHONY : zoom.cpp.o
-
-zoom.i: zoom.cpp.i
-
-.PHONY : zoom.i
-
-# target to preprocess a source file
-zoom.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/zoom.cpp.i
-.PHONY : zoom.cpp.i
-
-zoom.s: zoom.cpp.s
-
-.PHONY : zoom.s
-
-# target to generate assembly for a file
-zoom.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/zoom.cpp.s
-.PHONY : zoom.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -505,15 +559,27 @@ help:
 	@echo "... LeetCode/LeetCodeTest.o"
 	@echo "... LeetCode/LeetCodeTest.i"
 	@echo "... LeetCode/LeetCodeTest.s"
+	@echo "... LeetCode/MeiTuan.o"
+	@echo "... LeetCode/MeiTuan.i"
+	@echo "... LeetCode/MeiTuan.s"
+	@echo "... LeetCode/meituan2.o"
+	@echo "... LeetCode/meituan2.i"
+	@echo "... LeetCode/meituan2.s"
+	@echo "... LeetCode/ms1.o"
+	@echo "... LeetCode/ms1.i"
+	@echo "... LeetCode/ms1.s"
 	@echo "... LeetCode/msbs.o"
 	@echo "... LeetCode/msbs.i"
 	@echo "... LeetCode/msbs.s"
+	@echo "... LeetCode/msbs2.o"
+	@echo "... LeetCode/msbs2.i"
+	@echo "... LeetCode/msbs2.s"
 	@echo "... LeetCode/nio.o"
 	@echo "... LeetCode/nio.i"
 	@echo "... LeetCode/nio.s"
-	@echo "... MeiTuan.o"
-	@echo "... MeiTuan.i"
-	@echo "... MeiTuan.s"
+	@echo "... LeetCode/zoom.o"
+	@echo "... LeetCode/zoom.i"
+	@echo "... LeetCode/zoom.s"
 	@echo "... gramar.o"
 	@echo "... gramar.i"
 	@echo "... gramar.s"
@@ -523,9 +589,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ms1.o"
-	@echo "... ms1.i"
-	@echo "... ms1.s"
 	@echo "... query_ad.o"
 	@echo "... query_ad.i"
 	@echo "... query_ad.s"
@@ -538,9 +601,6 @@ help:
 	@echo "... test_include.o"
 	@echo "... test_include.i"
 	@echo "... test_include.s"
-	@echo "... zoom.o"
-	@echo "... zoom.i"
-	@echo "... zoom.s"
 .PHONY : help
 
 
