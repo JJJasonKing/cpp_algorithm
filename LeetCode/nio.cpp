@@ -6,7 +6,7 @@
 #include <queue>
 using namespace std;
 
-int main() {
+int mainnio() {
     vector<int> test{1,3,5,7,9,10};
     cout << test.size() << " " << test.capacity() << endl;
     for (int i = 0; i < 10; ++i) {

@@ -597,6 +597,45 @@ public:
         return res > n ? -1 : res;
     }
 
+    // 640. 求解方程
+    string solveEquation(string ss) {
+        // num表示数字的和，x表示x前的系数和，op表示符号
+        int num = 0, x = 0, op = 1, n = ss.size();
+        int i = 0;
+        while (i < n) {
+            if (ss[i] == '+') {
+                op = 1;
+                i++;
+            } else if (ss[i] == '-') {
+                op = -1;
+                i++;
+            } else if (ss[i] == '=') {
+                // 相当于把左边的结果移到后边
+                x = -x;
+                num = -num;
+                op = 1;
+                i++;
+            } else {
+                int j = i;
+                while (j < n && isdigit(ss[j])) {
+                    ++j;
+                }
+                int tnum = j > i ? stoi(ss.substr(i, j - i)) : 0;
+                tnum *= op;
+                if (j < n && ss[j] == 'x') {
+                    x += i == j ? op : tnum;
+                    j++;
+                } else {
+                    num += tnum;
+                }
+                i = j;
+            }
+        }
+        if (x == 0) {
+            return num == 0 ? "Infinite solutions" : "No solution";
+        }
+        return "x=" + to_string(-num / x);
+    }
 
 
 
