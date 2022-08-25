@@ -4,6 +4,7 @@
 #include "vector"
 #include "string"
 #include <iostream>
+#include <deque>
 
 using namespace std;
 // lenovo1
@@ -637,9 +638,51 @@ public:
         return "x=" + to_string(-num / x);
     }
 
+    // 1029. 两地调度
+    // 贪心 钱的差值
+    int twoCitySchedCost(vector<vector<int>>& costs) {
+        int res = 0, n = costs.size();
+        // 1. 全部去 a 的代价
+        for (int i = 0; i < n; ++i) {
+            res += costs[i][0];
+        }
+        // 2. 一半去 b, 能减少的代价 从大到小
+        vector<int> arr(n);
+        for (int i = 0; i < n; ++i) {
+            arr[i] = costs[i][0] - costs[i][1];
+        }
+        sort(arr.rbegin(), arr.rend());
+        for (int i = 0; i < n / 2; ++i) {
+            res -= arr[i];
+        }
+        return res;
+    }
 
-
-
+    // 862. 和至少为 K 的最短子数组
+    // 维护一个关于前缀和数组P的单调递增的双端队列，类似于滑动区间最大值
+    int shortestSubarray(vector<int>& nums, int k) {
+        int n = nums.size();
+        vector<long> preSum(n + 1);
+        for (int i = 1; i <= n; ++i) {
+            preSum[i] = preSum[i - 1] + nums[i - 1];
+            if (nums[i - 1] >= k) return 1;
+        }
+        deque<int> dq;
+        int res = n + 1;
+        for (int i = 0; i <= n; ++i) {
+            // 1. pop_back 保持单调递增队列，在前面的且大的 没有价值
+            while (!dq.empty() && preSum[dq.back()] >= preSum[i]) {
+                dq.pop_back();
+            }
+            // 2. pop_front 在前面的被计算过的 后面再计算时不可能比当前更小
+            while (!dq.empty() && preSum[i] - preSum[dq.front()] >= k) {
+                res = min(res, i - dq.front());
+                dq.pop_front();
+            }
+            dq.push_back(i);
+        }
+        return res > n ? -1 : res;
+    }
 
 };
 
