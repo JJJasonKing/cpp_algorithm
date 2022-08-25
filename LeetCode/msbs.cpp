@@ -37,7 +37,7 @@ int solution1(string &s, int b) {
     return res;
 }
 
-int solution(string &s) {
+int solutionbs11(string &s) {
     // write your code in C++ (C++14 (g++ 6.2.0))
     int mx = 1000000000;
     int l = 0, r = 0;
@@ -150,7 +150,7 @@ int mainms() {
     vector<int> bb{2, 2, 1};
     solution3(aa, bb, 3);
     string s2 = "RWRRWRRWWWWW";
-    solution(s2);
+    // solution(s2);
     return 0;
 }
 

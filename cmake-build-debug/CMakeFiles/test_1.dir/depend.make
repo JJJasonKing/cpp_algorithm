@@ -6,7 +6,11 @@ CMakeFiles/test_1.dir/LeetCode/LeetCodeTest.cpp.o: ../LeetCode/LeetCodeTest.h
 
 CMakeFiles/test_1.dir/LeetCode/MeiTuan.cpp.o: ../LeetCode/MeiTuan.cpp
 
+CMakeFiles/test_1.dir/LeetCode/amazon.cpp.o: ../LeetCode/amazon.cpp
+
 CMakeFiles/test_1.dir/LeetCode/meituan2.cpp.o: ../LeetCode/meituan2.cpp
+
+CMakeFiles/test_1.dir/LeetCode/morgan.cpp.o: ../LeetCode/morgan.cpp
 
 CMakeFiles/test_1.dir/LeetCode/ms1.cpp.o: ../LeetCode/ms1.cpp
 
@@ -14,8 +18,14 @@ CMakeFiles/test_1.dir/LeetCode/msbs.cpp.o: ../LeetCode/msbs.cpp
 
 CMakeFiles/test_1.dir/LeetCode/msbs2.cpp.o: ../LeetCode/msbs2.cpp
 
+CMakeFiles/test_1.dir/LeetCode/msbs3.cpp.o: ../LeetCode/msbs3.cpp
+
+CMakeFiles/test_1.dir/LeetCode/msbs4.cpp.o: ../LeetCode/msbs4.cpp
+
 CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.cpp
 CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.h
+
+CMakeFiles/test_1.dir/LeetCode/wangyilh.cpp.o: ../LeetCode/wangyilh.cpp
 
 CMakeFiles/test_1.dir/LeetCode/zoom.cpp.o: ../LeetCode/zoom.cpp
 
