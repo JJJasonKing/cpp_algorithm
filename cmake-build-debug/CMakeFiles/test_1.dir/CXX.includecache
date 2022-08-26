@@ -6,19 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/msbs4.cpp
-iostream
-/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/iostream
-vector
-/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/vector
-map
-/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/map
+/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/LeetCodeTest.cpp
+numeric
+-
+LeetCodeTest.h
+/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/LeetCodeTest.h
 queue
 /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/queue
+vector
+/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/vector
 string
 /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/string
+iostream
+-
+deque
+-
+
+/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/LeetCodeTest.h
+iostream
+-
+vector
+-
 unordered_map
 /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/unordered_map
-unordered_set
-/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/unordered_set
 

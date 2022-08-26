@@ -107,7 +107,7 @@ int solution(vector<int> &a) {
     return res > 1000000000 ? -1 : res;
 }
 
-int main() {
+int mainms4() {
     vector<int> aa{-1, 1, 3, 3, 3, 2, 3, 2 ,1 ,0};
     cout << solution(aa);
     return 0;
