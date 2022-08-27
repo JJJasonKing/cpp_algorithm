@@ -27,6 +27,10 @@ CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.h
 
 CMakeFiles/test_1.dir/LeetCode/wangyilh.cpp.o: ../LeetCode/wangyilh.cpp
 
+CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.o: ../LeetCode/wyhy.cpp
+
+CMakeFiles/test_1.dir/LeetCode/yfd.cpp.o: ../LeetCode/yfd.cpp
+
 CMakeFiles/test_1.dir/LeetCode/zoom.cpp.o: ../LeetCode/zoom.cpp
 
 CMakeFiles/test_1.dir/gramar.cpp.o: ../gramar.cpp
