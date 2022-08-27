@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_1.dir/LeetCode/msbs4.cpp.o"
   "CMakeFiles/test_1.dir/LeetCode/nio.cpp.o"
   "CMakeFiles/test_1.dir/LeetCode/wangyilh.cpp.o"
+  "CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.o"
   "CMakeFiles/test_1.dir/LeetCode/yfd.cpp.o"
   "CMakeFiles/test_1.dir/LeetCode/zoom.cpp.o"
   "CMakeFiles/test_1.dir/gramar.cpp.o"

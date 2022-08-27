@@ -65,7 +65,7 @@ public:
     }
 };
 
-int main() {
+int mainyfd1() {
     int m;
     cin >> m;
     while (m--) {
@@ -109,7 +109,7 @@ int main() {
 
 
 
-int main2() {
+int mainyfd2() {
     int m;
     cin >> m;
     while (m--) {

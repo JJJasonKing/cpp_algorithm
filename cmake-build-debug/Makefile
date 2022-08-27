@@ -466,6 +466,33 @@ LeetCode/wangyilh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/wangyilh.cpp.s
 .PHONY : LeetCode/wangyilh.cpp.s
 
+LeetCode/wyhy.o: LeetCode/wyhy.cpp.o
+
+.PHONY : LeetCode/wyhy.o
+
+# target to build an object file
+LeetCode/wyhy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.o
+.PHONY : LeetCode/wyhy.cpp.o
+
+LeetCode/wyhy.i: LeetCode/wyhy.cpp.i
+
+.PHONY : LeetCode/wyhy.i
+
+# target to preprocess a source file
+LeetCode/wyhy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.i
+.PHONY : LeetCode/wyhy.cpp.i
+
+LeetCode/wyhy.s: LeetCode/wyhy.cpp.s
+
+.PHONY : LeetCode/wyhy.s
+
+# target to generate assembly for a file
+LeetCode/wyhy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.s
+.PHONY : LeetCode/wyhy.cpp.s
+
 LeetCode/yfd.o: LeetCode/yfd.cpp.o
 
 .PHONY : LeetCode/yfd.o
@@ -754,6 +781,9 @@ help:
 	@echo "... LeetCode/wangyilh.o"
 	@echo "... LeetCode/wangyilh.i"
 	@echo "... LeetCode/wangyilh.s"
+	@echo "... LeetCode/wyhy.o"
+	@echo "... LeetCode/wyhy.i"
+	@echo "... LeetCode/wyhy.s"
 	@echo "... LeetCode/yfd.o"
 	@echo "... LeetCode/yfd.i"
 	@echo "... LeetCode/yfd.s"
