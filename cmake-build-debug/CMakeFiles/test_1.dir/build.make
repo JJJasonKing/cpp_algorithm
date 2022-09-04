@@ -362,6 +362,45 @@ CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/wyhy.cpp -o CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.s
 
+CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o: CMakeFiles/test_1.dir/flags.make
+CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o: ../LeetCode/jdgpbs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o -c /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdgpbs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdgpbs.cpp > CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.i
+
+CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdgpbs.cpp -o CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.s
+
+CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o: CMakeFiles/test_1.dir/flags.make
+CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o: ../LeetCode/huaweibs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o -c /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/huaweibs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/huaweibs.cpp > CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.i
+
+CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/huaweibs.cpp -o CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.s
+
+CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o: CMakeFiles/test_1.dir/flags.make
+CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o: ../LeetCode/jdbs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o -c /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdbs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdbs.cpp > CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.i
+
+CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdbs.cpp -o CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.s
+
 # Object files for target test_1
 test_1_OBJECTS = \
 "CMakeFiles/test_1.dir/main.cpp.o" \
@@ -385,7 +424,10 @@ test_1_OBJECTS = \
 "CMakeFiles/test_1.dir/LeetCode/morgan.cpp.o" \
 "CMakeFiles/test_1.dir/LeetCode/msbs4.cpp.o" \
 "CMakeFiles/test_1.dir/LeetCode/yfd.cpp.o" \
-"CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.o"
+"CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.o" \
+"CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o" \
+"CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o" \
+"CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o"
 
 # External object files for target test_1
 test_1_EXTERNAL_OBJECTS =
@@ -412,9 +454,12 @@ test_1: CMakeFiles/test_1.dir/LeetCode/morgan.cpp.o
 test_1: CMakeFiles/test_1.dir/LeetCode/msbs4.cpp.o
 test_1: CMakeFiles/test_1.dir/LeetCode/yfd.cpp.o
 test_1: CMakeFiles/test_1.dir/LeetCode/wyhy.cpp.o
+test_1: CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o
+test_1: CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o
+test_1: CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o
 test_1: CMakeFiles/test_1.dir/build.make
 test_1: CMakeFiles/test_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable test_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/github_repo/repo1/cpp_algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable test_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

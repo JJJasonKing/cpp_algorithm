@@ -8,6 +8,12 @@ CMakeFiles/test_1.dir/LeetCode/MeiTuan.cpp.o: ../LeetCode/MeiTuan.cpp
 
 CMakeFiles/test_1.dir/LeetCode/amazon.cpp.o: ../LeetCode/amazon.cpp
 
+CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o: ../LeetCode/huaweibs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o: ../LeetCode/jdbs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o: ../LeetCode/jdgpbs.cpp
+
 CMakeFiles/test_1.dir/LeetCode/meituan2.cpp.o: ../LeetCode/meituan2.cpp
 
 CMakeFiles/test_1.dir/LeetCode/morgan.cpp.o: ../LeetCode/morgan.cpp

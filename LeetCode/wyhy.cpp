@@ -2,7 +2,7 @@
 // Created by jinzhaopeng on 2022/8/27.
 //
 
-// wnagyihuyu
+// wangyihuyu
 
 // #include <bits/stdc++.h>
 #include <iostream>
@@ -82,7 +82,7 @@ int mainwyhy2() {
     return 0;
 }
 
-int main() {
+int mainwyhy() {
     int t;
     cin >> t;
     while (t--) {

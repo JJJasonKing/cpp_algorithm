@@ -223,6 +223,87 @@ LeetCode/amazon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/amazon.cpp.s
 .PHONY : LeetCode/amazon.cpp.s
 
+LeetCode/huaweibs.o: LeetCode/huaweibs.cpp.o
+
+.PHONY : LeetCode/huaweibs.o
+
+# target to build an object file
+LeetCode/huaweibs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o
+.PHONY : LeetCode/huaweibs.cpp.o
+
+LeetCode/huaweibs.i: LeetCode/huaweibs.cpp.i
+
+.PHONY : LeetCode/huaweibs.i
+
+# target to preprocess a source file
+LeetCode/huaweibs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.i
+.PHONY : LeetCode/huaweibs.cpp.i
+
+LeetCode/huaweibs.s: LeetCode/huaweibs.cpp.s
+
+.PHONY : LeetCode/huaweibs.s
+
+# target to generate assembly for a file
+LeetCode/huaweibs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.s
+.PHONY : LeetCode/huaweibs.cpp.s
+
+LeetCode/jdbs.o: LeetCode/jdbs.cpp.o
+
+.PHONY : LeetCode/jdbs.o
+
+# target to build an object file
+LeetCode/jdbs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o
+.PHONY : LeetCode/jdbs.cpp.o
+
+LeetCode/jdbs.i: LeetCode/jdbs.cpp.i
+
+.PHONY : LeetCode/jdbs.i
+
+# target to preprocess a source file
+LeetCode/jdbs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.i
+.PHONY : LeetCode/jdbs.cpp.i
+
+LeetCode/jdbs.s: LeetCode/jdbs.cpp.s
+
+.PHONY : LeetCode/jdbs.s
+
+# target to generate assembly for a file
+LeetCode/jdbs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.s
+.PHONY : LeetCode/jdbs.cpp.s
+
+LeetCode/jdgpbs.o: LeetCode/jdgpbs.cpp.o
+
+.PHONY : LeetCode/jdgpbs.o
+
+# target to build an object file
+LeetCode/jdgpbs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o
+.PHONY : LeetCode/jdgpbs.cpp.o
+
+LeetCode/jdgpbs.i: LeetCode/jdgpbs.cpp.i
+
+.PHONY : LeetCode/jdgpbs.i
+
+# target to preprocess a source file
+LeetCode/jdgpbs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.i
+.PHONY : LeetCode/jdgpbs.cpp.i
+
+LeetCode/jdgpbs.s: LeetCode/jdgpbs.cpp.s
+
+.PHONY : LeetCode/jdgpbs.s
+
+# target to generate assembly for a file
+LeetCode/jdgpbs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.s
+.PHONY : LeetCode/jdgpbs.cpp.s
+
 LeetCode/meituan2.o: LeetCode/meituan2.cpp.o
 
 .PHONY : LeetCode/meituan2.o
@@ -754,6 +835,15 @@ help:
 	@echo "... LeetCode/amazon.o"
 	@echo "... LeetCode/amazon.i"
 	@echo "... LeetCode/amazon.s"
+	@echo "... LeetCode/huaweibs.o"
+	@echo "... LeetCode/huaweibs.i"
+	@echo "... LeetCode/huaweibs.s"
+	@echo "... LeetCode/jdbs.o"
+	@echo "... LeetCode/jdbs.i"
+	@echo "... LeetCode/jdbs.s"
+	@echo "... LeetCode/jdgpbs.o"
+	@echo "... LeetCode/jdgpbs.i"
+	@echo "... LeetCode/jdgpbs.s"
 	@echo "... LeetCode/meituan2.o"
 	@echo "... LeetCode/meituan2.i"
 	@echo "... LeetCode/meituan2.s"
