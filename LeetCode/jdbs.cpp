@@ -153,7 +153,7 @@ int mainwyhlw1() {
     return 0;
 }
 
-// 分的组数n, n = x / e，是导数为0的极值，ln(x/n) - 1 = 0
+// 分的组数n, n = x / e，是导数为0的极值，ln(x/n) - 1 = 0：
 int mainwyh2() {
     int x;
     cin >> x;
@@ -240,7 +240,7 @@ int mainwyh3() {
     cout << res;
 }
 
-int main() {
+int mainwyh4() {
     int w, n;
     cin >> w >> n;
     if (w == 5 && n == 2) {
@@ -271,3 +271,134 @@ int main() {
         }
     }
 }
+
+// tme
+class tme {
+    // 1 每次把两个字母变成任意一个新的字母 求把字符串变成全部不同字符的次数
+    int minOperations(string str) {
+        // write code here
+        vector<int> mp(26);
+        // 空闲的字母数 需要去重的字母数
+        int free_cnt = 0;
+        int res = 0;
+        for (char c : str) {
+            mp[c - 'a']++;
+        }
+        for (int i = 0; i < 26; ++i) {
+            if (mp[i] == 0) {
+                free_cnt++;
+            }
+        }
+
+        for (int i = 0; i < 26; ++i) {
+            if (mp[i] > 1) {
+                if (mp[i] == 2) {
+                    mp[i]--;
+                    res++;
+                    continue;
+                } else {
+                    while (free_cnt > 0 && mp[i] > 2) {
+                        mp[i] -= 2;
+                        free_cnt--;
+                        res++;
+                    }
+                    while (mp[i] > 1) {
+                        mp[i]--;
+                        res++;
+                    }
+                }
+            }
+        }
+
+        return res;
+    }
+
+    // 2 前中序构造二叉树 带重复值
+    struct TreeNode {
+        int val;
+        struct TreeNode *left;
+        struct TreeNode *right;
+        TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    };
+
+    unordered_map<int, vector<int>> mp;
+    vector<TreeNode*> getBinaryTrees(vector<int>& preOrder, vector<int>& inOrder) {
+        // write code here
+        if (preOrder.size() != inOrder.size()) {
+            return vector<TreeNode*>{};
+        }
+        for (int i = 0; i < inOrder.size(); ++i) {
+            mp[inOrder[i]].emplace_back(i);
+        }
+        return build(0, inOrder.size() - 1, 0, preOrder.size() - 1, preOrder, inOrder);
+    }
+
+    vector<TreeNode*> build(int pl, int pr, int il, int ir, vector<int>& preOrder, vector<int>& inOrder) {
+        vector<TreeNode*> res;
+        if (pl > pr || il > ir) {
+            return res;
+        }
+        int root_val = preOrder[pl];
+        for (int i = 0; i < mp[root_val].size(); ++i) {
+            int root_idx = mp[root_val][i];
+            mp[root_val][i] = -1;
+            if (root_idx = -1) {
+                continue;
+            }
+            int left = root_idx - il;
+            if (left >= 0) {
+                vector<TreeNode*> tmpLeft = build(pl + 1, pl + left, il, root_idx - 1, preOrder, inOrder);
+                vector<TreeNode*> tmpRight = build(pl + left + 1, pr, root_idx + 1, ir, preOrder, inOrder);
+                if (tmpLeft.size() == 0 && tmpRight.size() == 0) {
+                    res.push_back(new TreeNode(root_val));
+                } else {
+                    if (tmpLeft.size() == 0) {
+                        for (TreeNode* r : tmpRight) {
+                            TreeNode* root = new TreeNode(root_val);
+                            root->right = r;
+                            res.push_back(root);
+                        }
+                    } else if (tmpRight.size() == 0) {
+                        for (TreeNode* l : tmpLeft) {
+                            TreeNode* root = new TreeNode(root_val);
+                            root->left = l;
+                            res.push_back(root);
+                        }
+                    } else {
+                        for (TreeNode* l : tmpLeft) {
+                            for (TreeNode* r : tmpRight) {
+                                TreeNode* root = new TreeNode(root_val);
+                                root->left = l;
+                                root->right = r;
+                                res.push_back(root);
+                            }
+                        }
+                    }
+                }
+            }
+            mp[root_val][i] = root_idx;
+        }
+        return res;
+    }
+
+    // 3 二叉树左右子树和相等的最小和
+    int mod = 1000000007;
+    // 贪心数学：就是满二叉树的节点数量
+    int getTreeSum(TreeNode* tree) {
+        // write code here
+        if (!tree)
+            return 0;
+        int dep = getDep(tree);
+        int res = 1;
+        for (int i = 0; i < dep; ++i) {
+            res *= 2;
+            res %= mod;
+        }
+        return res - 1;
+    }
+    int getDep(TreeNode* tree) {
+        if (!tree)
+            return 0;
+        return max(getDep(tree->left), getDep(tree->right)) + 1;
+    }
+};
