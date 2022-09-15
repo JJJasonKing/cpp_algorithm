@@ -8,11 +8,15 @@ CMakeFiles/test_1.dir/LeetCode/MeiTuan.cpp.o: ../LeetCode/MeiTuan.cpp
 
 CMakeFiles/test_1.dir/LeetCode/amazon.cpp.o: ../LeetCode/amazon.cpp
 
+CMakeFiles/test_1.dir/LeetCode/antOA.cpp.o: ../LeetCode/antOA.cpp
+
 CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o: ../LeetCode/huaweibs.cpp
 
 CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o: ../LeetCode/jdbs.cpp
 
 CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.o: ../LeetCode/jdgpbs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/jdtft.cpp.o: ../LeetCode/jdtft.cpp
 
 CMakeFiles/test_1.dir/LeetCode/meituan2.cpp.o: ../LeetCode/meituan2.cpp
 
@@ -30,6 +34,8 @@ CMakeFiles/test_1.dir/LeetCode/msbs4.cpp.o: ../LeetCode/msbs4.cpp
 
 CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.cpp
 CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.h
+
+CMakeFiles/test_1.dir/LeetCode/txe.cpp.o: ../LeetCode/txe.cpp
 
 CMakeFiles/test_1.dir/LeetCode/wangyilh.cpp.o: ../LeetCode/wangyilh.cpp
 
