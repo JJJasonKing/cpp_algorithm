@@ -223,6 +223,33 @@ LeetCode/amazon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/amazon.cpp.s
 .PHONY : LeetCode/amazon.cpp.s
 
+LeetCode/antOA.o: LeetCode/antOA.cpp.o
+
+.PHONY : LeetCode/antOA.o
+
+# target to build an object file
+LeetCode/antOA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/antOA.cpp.o
+.PHONY : LeetCode/antOA.cpp.o
+
+LeetCode/antOA.i: LeetCode/antOA.cpp.i
+
+.PHONY : LeetCode/antOA.i
+
+# target to preprocess a source file
+LeetCode/antOA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/antOA.cpp.i
+.PHONY : LeetCode/antOA.cpp.i
+
+LeetCode/antOA.s: LeetCode/antOA.cpp.s
+
+.PHONY : LeetCode/antOA.s
+
+# target to generate assembly for a file
+LeetCode/antOA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/antOA.cpp.s
+.PHONY : LeetCode/antOA.cpp.s
+
 LeetCode/huaweibs.o: LeetCode/huaweibs.cpp.o
 
 .PHONY : LeetCode/huaweibs.o
@@ -303,6 +330,33 @@ LeetCode/jdgpbs.s: LeetCode/jdgpbs.cpp.s
 LeetCode/jdgpbs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdgpbs.cpp.s
 .PHONY : LeetCode/jdgpbs.cpp.s
+
+LeetCode/jdtft.o: LeetCode/jdtft.cpp.o
+
+.PHONY : LeetCode/jdtft.o
+
+# target to build an object file
+LeetCode/jdtft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdtft.cpp.o
+.PHONY : LeetCode/jdtft.cpp.o
+
+LeetCode/jdtft.i: LeetCode/jdtft.cpp.i
+
+.PHONY : LeetCode/jdtft.i
+
+# target to preprocess a source file
+LeetCode/jdtft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdtft.cpp.i
+.PHONY : LeetCode/jdtft.cpp.i
+
+LeetCode/jdtft.s: LeetCode/jdtft.cpp.s
+
+.PHONY : LeetCode/jdtft.s
+
+# target to generate assembly for a file
+LeetCode/jdtft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/jdtft.cpp.s
+.PHONY : LeetCode/jdtft.cpp.s
 
 LeetCode/meituan2.o: LeetCode/meituan2.cpp.o
 
@@ -519,6 +573,33 @@ LeetCode/nio.s: LeetCode/nio.cpp.s
 LeetCode/nio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/nio.cpp.s
 .PHONY : LeetCode/nio.cpp.s
+
+LeetCode/txe.o: LeetCode/txe.cpp.o
+
+.PHONY : LeetCode/txe.o
+
+# target to build an object file
+LeetCode/txe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/txe.cpp.o
+.PHONY : LeetCode/txe.cpp.o
+
+LeetCode/txe.i: LeetCode/txe.cpp.i
+
+.PHONY : LeetCode/txe.i
+
+# target to preprocess a source file
+LeetCode/txe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/txe.cpp.i
+.PHONY : LeetCode/txe.cpp.i
+
+LeetCode/txe.s: LeetCode/txe.cpp.s
+
+.PHONY : LeetCode/txe.s
+
+# target to generate assembly for a file
+LeetCode/txe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/txe.cpp.s
+.PHONY : LeetCode/txe.cpp.s
 
 LeetCode/wangyilh.o: LeetCode/wangyilh.cpp.o
 
@@ -835,6 +916,9 @@ help:
 	@echo "... LeetCode/amazon.o"
 	@echo "... LeetCode/amazon.i"
 	@echo "... LeetCode/amazon.s"
+	@echo "... LeetCode/antOA.o"
+	@echo "... LeetCode/antOA.i"
+	@echo "... LeetCode/antOA.s"
 	@echo "... LeetCode/huaweibs.o"
 	@echo "... LeetCode/huaweibs.i"
 	@echo "... LeetCode/huaweibs.s"
@@ -844,6 +928,9 @@ help:
 	@echo "... LeetCode/jdgpbs.o"
 	@echo "... LeetCode/jdgpbs.i"
 	@echo "... LeetCode/jdgpbs.s"
+	@echo "... LeetCode/jdtft.o"
+	@echo "... LeetCode/jdtft.i"
+	@echo "... LeetCode/jdtft.s"
 	@echo "... LeetCode/meituan2.o"
 	@echo "... LeetCode/meituan2.i"
 	@echo "... LeetCode/meituan2.s"
@@ -868,6 +955,9 @@ help:
 	@echo "... LeetCode/nio.o"
 	@echo "... LeetCode/nio.i"
 	@echo "... LeetCode/nio.s"
+	@echo "... LeetCode/txe.o"
+	@echo "... LeetCode/txe.i"
+	@echo "... LeetCode/txe.s"
 	@echo "... LeetCode/wangyilh.o"
 	@echo "... LeetCode/wangyilh.i"
 	@echo "... LeetCode/wangyilh.s"

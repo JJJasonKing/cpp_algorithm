@@ -402,3 +402,93 @@ class tme {
         return max(getDep(tree->left), getDep(tree->right)) + 1;
     }
 };
+
+
+// webank 100
+int mainweb1() {
+    int n;
+    cin >> n;
+    vector<string> strs(n);
+    int tmp;
+    for (int i = 0; i < n; ++i) {
+        cin >> tmp;
+        strs[i] = to_string(tmp);
+    }
+    sort(strs.begin(), strs.end(), [](const string& a, const string& b) {
+        return a.size() == b.size() ? a > b : a.size() > b.size();
+    });
+    int t = min(3, n);
+    sort(strs.begin(), strs.begin() + t, [](const string& a, const string& b) {
+        return a > b;
+    });
+    string res;
+    for (int i = 0; i < t; ++i) {
+        res += strs[i];
+    }
+    cout << res;
+}
+
+int help_wb(int a, int b) {
+    if (a % b == 0) {
+        return b;
+    } else {
+        return (b, a % b);
+    }
+}
+
+int mainwebank2() {
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        long a, b;
+        cin >> a >> b;
+        if (a == b) {
+            cout << 0 << endl;
+            continue;
+        }
+        long mul = a * b / help_wb(a, b);
+        long res = 0;
+        bool f = false;
+        while (a != mul) {
+            if ((mul / a) % 8 == 0) {
+                a *= 8;
+            } else if ((mul / a) % 4 == 0) {
+                a *= 4;
+            } else if ((mul / a) % 2 == 0) {
+                a *= 2;
+            } else {
+                f = true;
+                break;
+            }
+            res++;
+        }
+        if (f) {
+            cout << -1 << endl;
+            break;
+        }
+        f = false;
+        while (b != mul) {
+            if ((mul / b) % 8 == 0) {
+                b *= 8;
+            } else if ((mul / b) % 4 == 0) {
+                b *= 4;
+            } else if ((mul / b) % 2 == 0) {
+                b *= 2;
+            } else {
+                f = true;
+                break;
+            }
+            res++;
+        }
+        if (f) {
+            cout << -1 << endl;
+            continue;
+        }
+
+        if (res == 0) {
+            cout << -1 << endl;
+        } else {
+            cout << res << endl;
+        }
+    }
+}
