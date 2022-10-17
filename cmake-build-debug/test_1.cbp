@@ -95,7 +95,13 @@
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/antOA.cpp">
 			<Option target="test_1"/>
 		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/hotstar.cpp">
+			<Option target="test_1"/>
+		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/huaweibs.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/hulu.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/jdbs.cpp">
@@ -132,6 +138,12 @@
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/nio.h">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/oushu.cpp">
+			<Option target="test_1"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/pony.cpp">
 			<Option target="test_1"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/github_repo/repo1/cpp_algorithm/LeetCode/txe.cpp">
