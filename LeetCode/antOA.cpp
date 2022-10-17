@@ -56,7 +56,7 @@ int mainant2() {
 }
 
 
-int main() {
+int mainant3() {
     string s;
     cin >> s;
     int n = s.size();

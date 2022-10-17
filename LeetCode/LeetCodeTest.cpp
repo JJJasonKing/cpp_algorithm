@@ -684,6 +684,21 @@ public:
         return res > n ? -1 : res;
     }
 
+    // 854. 相似度为 K 的字符串
+    int minCost(const string& s1, const string& s2, int idx) {
+        int res = 0;
+        for (int i = idx; i < s1.size(); ++i) {
+            if (s1[i] != s2[i]) {
+                res++;
+            }
+        }
+        return (res + 1) / 2;
+    }
+
+    int kSimilarity(string s1, string s2) {
+        return 0;
+    }
+
 };
 
 

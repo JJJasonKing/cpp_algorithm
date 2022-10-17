@@ -10,7 +10,11 @@ CMakeFiles/test_1.dir/LeetCode/amazon.cpp.o: ../LeetCode/amazon.cpp
 
 CMakeFiles/test_1.dir/LeetCode/antOA.cpp.o: ../LeetCode/antOA.cpp
 
+CMakeFiles/test_1.dir/LeetCode/hotstar.cpp.o: ../LeetCode/hotstar.cpp
+
 CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.o: ../LeetCode/huaweibs.cpp
+
+CMakeFiles/test_1.dir/LeetCode/hulu.cpp.o: ../LeetCode/hulu.cpp
 
 CMakeFiles/test_1.dir/LeetCode/jdbs.cpp.o: ../LeetCode/jdbs.cpp
 
@@ -34,6 +38,10 @@ CMakeFiles/test_1.dir/LeetCode/msbs4.cpp.o: ../LeetCode/msbs4.cpp
 
 CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.cpp
 CMakeFiles/test_1.dir/LeetCode/nio.cpp.o: ../LeetCode/nio.h
+
+CMakeFiles/test_1.dir/LeetCode/oushu.cpp.o: ../LeetCode/oushu.cpp
+
+CMakeFiles/test_1.dir/LeetCode/pony.cpp.o: ../LeetCode/pony.cpp
 
 CMakeFiles/test_1.dir/LeetCode/txe.cpp.o: ../LeetCode/txe.cpp
 

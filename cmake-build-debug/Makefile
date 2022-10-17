@@ -250,6 +250,33 @@ LeetCode/antOA.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/antOA.cpp.s
 .PHONY : LeetCode/antOA.cpp.s
 
+LeetCode/hotstar.o: LeetCode/hotstar.cpp.o
+
+.PHONY : LeetCode/hotstar.o
+
+# target to build an object file
+LeetCode/hotstar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/hotstar.cpp.o
+.PHONY : LeetCode/hotstar.cpp.o
+
+LeetCode/hotstar.i: LeetCode/hotstar.cpp.i
+
+.PHONY : LeetCode/hotstar.i
+
+# target to preprocess a source file
+LeetCode/hotstar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/hotstar.cpp.i
+.PHONY : LeetCode/hotstar.cpp.i
+
+LeetCode/hotstar.s: LeetCode/hotstar.cpp.s
+
+.PHONY : LeetCode/hotstar.s
+
+# target to generate assembly for a file
+LeetCode/hotstar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/hotstar.cpp.s
+.PHONY : LeetCode/hotstar.cpp.s
+
 LeetCode/huaweibs.o: LeetCode/huaweibs.cpp.o
 
 .PHONY : LeetCode/huaweibs.o
@@ -276,6 +303,33 @@ LeetCode/huaweibs.s: LeetCode/huaweibs.cpp.s
 LeetCode/huaweibs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/huaweibs.cpp.s
 .PHONY : LeetCode/huaweibs.cpp.s
+
+LeetCode/hulu.o: LeetCode/hulu.cpp.o
+
+.PHONY : LeetCode/hulu.o
+
+# target to build an object file
+LeetCode/hulu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/hulu.cpp.o
+.PHONY : LeetCode/hulu.cpp.o
+
+LeetCode/hulu.i: LeetCode/hulu.cpp.i
+
+.PHONY : LeetCode/hulu.i
+
+# target to preprocess a source file
+LeetCode/hulu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/hulu.cpp.i
+.PHONY : LeetCode/hulu.cpp.i
+
+LeetCode/hulu.s: LeetCode/hulu.cpp.s
+
+.PHONY : LeetCode/hulu.s
+
+# target to generate assembly for a file
+LeetCode/hulu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/hulu.cpp.s
+.PHONY : LeetCode/hulu.cpp.s
 
 LeetCode/jdbs.o: LeetCode/jdbs.cpp.o
 
@@ -573,6 +627,60 @@ LeetCode/nio.s: LeetCode/nio.cpp.s
 LeetCode/nio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/nio.cpp.s
 .PHONY : LeetCode/nio.cpp.s
+
+LeetCode/oushu.o: LeetCode/oushu.cpp.o
+
+.PHONY : LeetCode/oushu.o
+
+# target to build an object file
+LeetCode/oushu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/oushu.cpp.o
+.PHONY : LeetCode/oushu.cpp.o
+
+LeetCode/oushu.i: LeetCode/oushu.cpp.i
+
+.PHONY : LeetCode/oushu.i
+
+# target to preprocess a source file
+LeetCode/oushu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/oushu.cpp.i
+.PHONY : LeetCode/oushu.cpp.i
+
+LeetCode/oushu.s: LeetCode/oushu.cpp.s
+
+.PHONY : LeetCode/oushu.s
+
+# target to generate assembly for a file
+LeetCode/oushu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/oushu.cpp.s
+.PHONY : LeetCode/oushu.cpp.s
+
+LeetCode/pony.o: LeetCode/pony.cpp.o
+
+.PHONY : LeetCode/pony.o
+
+# target to build an object file
+LeetCode/pony.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/pony.cpp.o
+.PHONY : LeetCode/pony.cpp.o
+
+LeetCode/pony.i: LeetCode/pony.cpp.i
+
+.PHONY : LeetCode/pony.i
+
+# target to preprocess a source file
+LeetCode/pony.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/pony.cpp.i
+.PHONY : LeetCode/pony.cpp.i
+
+LeetCode/pony.s: LeetCode/pony.cpp.s
+
+.PHONY : LeetCode/pony.s
+
+# target to generate assembly for a file
+LeetCode/pony.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_1.dir/build.make CMakeFiles/test_1.dir/LeetCode/pony.cpp.s
+.PHONY : LeetCode/pony.cpp.s
 
 LeetCode/txe.o: LeetCode/txe.cpp.o
 
@@ -919,9 +1027,15 @@ help:
 	@echo "... LeetCode/antOA.o"
 	@echo "... LeetCode/antOA.i"
 	@echo "... LeetCode/antOA.s"
+	@echo "... LeetCode/hotstar.o"
+	@echo "... LeetCode/hotstar.i"
+	@echo "... LeetCode/hotstar.s"
 	@echo "... LeetCode/huaweibs.o"
 	@echo "... LeetCode/huaweibs.i"
 	@echo "... LeetCode/huaweibs.s"
+	@echo "... LeetCode/hulu.o"
+	@echo "... LeetCode/hulu.i"
+	@echo "... LeetCode/hulu.s"
 	@echo "... LeetCode/jdbs.o"
 	@echo "... LeetCode/jdbs.i"
 	@echo "... LeetCode/jdbs.s"
@@ -955,6 +1069,12 @@ help:
 	@echo "... LeetCode/nio.o"
 	@echo "... LeetCode/nio.i"
 	@echo "... LeetCode/nio.s"
+	@echo "... LeetCode/oushu.o"
+	@echo "... LeetCode/oushu.i"
+	@echo "... LeetCode/oushu.s"
+	@echo "... LeetCode/pony.o"
+	@echo "... LeetCode/pony.i"
+	@echo "... LeetCode/pony.s"
 	@echo "... LeetCode/txe.o"
 	@echo "... LeetCode/txe.i"
 	@echo "... LeetCode/txe.s"
